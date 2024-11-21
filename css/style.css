@@ -146,6 +146,7 @@ a {
 
     #header .inner .gnb .main_menu li {
         position: relative;
+        color: #000;
     }
 
     #header .inner .gnb .main_menu li .list {
@@ -169,6 +170,11 @@ a {
 
     #header .inner:hover::before {
         display: none;
+    }
+
+    #header .inner .gnb .main_menu li .list a {
+        color: #000;
+        line-height: 1.8;
     }
 
     #header .inner .gnb .main_menu>li>a {
